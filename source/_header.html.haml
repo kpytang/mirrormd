@@ -1,0 +1,41 @@
+%header
+  %nav.home-menu.pure-menu.pure-menu-open.pure-menu-horizontal.pure-menu-fixed.pure-menu-blackbg
+    %a.pure-menu-heading{:href => "/"}
+      %img#logo{:src => "images/mirrormd.png", :width =>"15", :height => "22"}
+      Mirror MD
+    %ul
+      %li{ is_page_selected('/') }
+        %a{:href => "/"} Dashboard
+      %li{ is_page_selected('/infoviz.html') }
+        %a{:href => "infoviz.html"} Graphs
+      %li{ is_page_selected('/prescriptions.html') }
+        %a{:href => "prescriptions.html"} Prescriptions
+      %li
+        %a{:href => "#"} Patient Profile
+      %li
+        %a{:href => "#"} Logout
+      %li
+        %span.welcome Welcome, Dr. Gindin
+
+%section.pure-g-r.dashboard.clearfix#patient-info
+  .pure-u-1.header
+    %img.patient-photo{:src => "images/man.jpg"}
+    .patient
+      .name Mark Ellis
+      .info 
+        Male, 28 years old
+        %br
+        %span.date last admission: July 2, 2013
+    %ul.dashboard-menu
+      %li.date-range
+        %i.icon-chevron-sign-left
+        October 19-21, 2013
+        %i.icon-chevron-sign-right
+      %li.selected 
+        %a{:href => "#"} weekly
+      %li
+        %a{:href => "#"} monthly
+      %li 
+        %a{:href => "#"} yearly
+      %li 
+        %a{:href => "#"} custom

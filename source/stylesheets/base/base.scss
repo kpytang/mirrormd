@@ -1,0 +1,22 @@
+// nav menu
+$purple: #7E45D3;
+$nav-background: #222;
+$light-gray: #d8d8d8;
+$margin-left: 20px;
+
+// graph colors
+$dark-purple: #35203B;
+$magenta: #911146;
+$orange: #CF4A30;
+$darkyellow: #FF9600;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}

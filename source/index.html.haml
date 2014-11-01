@@ -1,0 +1,66 @@
+%script{:src => "javascripts/dashboard.js", :type => "text/javascript"}
+					
+-#row 1: Mood
+%section.pure-g-r.dashboard.clearfix
+	.pure-u-2-3.dashboard-piece-alert#moods{:datahref => "infoviz.html#moods"}
+		.dashboard-content			
+			.header mental health
+			.dashboard-data 
+				%i.icon-long-arrow-down.icon-jumbo
+				%span.value 8
+				%span.small %
+				%img{:src => "images/graph.png"}
+			.dashboard-caption 
+				lower
+				%span.i life satisfaction
+				levels
+	.pure-u-1-3.dashboard-piece-warning#medications{:datahref => "infoviz.html#medications"}
+		.dashboard-content			
+			.header medication
+			.dashboard-data
+				%i.icon-exclamation-sign.icon-jumbo
+				%span.value 2
+				%span.small missed doses
+			.dashboard-caption 
+				%span.i 80% 
+				compliance rate
+
+-#row 2: Medication & Sleep
+%section.pure-g-r.dashboard.clearfix
+	.pure-u-1-3.dashboard-piece-warning#sleep{:datahref => "infoviz.html#sleep"}
+		.dashboard-content			
+			.header sleep
+			.dashboard-data
+				%i.icon-exclamation-sign.icon-jumbo
+				%span.small avg
+				%span.value 12
+				%span.small hrs
+			.dashboard-caption 
+				%span.i 75% 
+				compliance rate
+	.pure-u-1-3.dashboard-piece-ok#exercise{:datahref => "infoviz.html#exercise"}
+		.dashboard-content			
+			.header exercise
+			.dashboard-data
+				%i.icon-ok.icon-jumbo
+				%span.value 60
+				%span.small / 60 mins
+			.dashboard-caption 
+				%span.i 100% 
+				compliance rate
+	.pure-u-1-3.dashboard-piece-info
+		.dashboard-content			
+			.header life events
+			.dashboard-caption 
+				%span.new new
+				%span.i laid off from job
+				&nbsp; 2 days ago (Oct 17, 2013)
+				%br
+				%span.i started AA
+				&nbsp; 3 weeks ago (Sep 30, 2013)
+				%br
+				%span.i surgery
+				&nbsp; 2 months ago (Aug 9, 2013)
+				%br
+				%i.icon-ellipsis-horizontal
+				&nbsp; &nbsp; 1 more event

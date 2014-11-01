@@ -1,0 +1,19 @@
+// Import Base Styles
+@import "base/base";
+@import "base/normalize";
+@import "base/fontawesome";
+// @import "base/all_your"
+
+// Import Layout Styles
+@import "layout/layout";
+
+// Import Module Styles
+@import "modules/menu";
+@import "modules/dashboard";
+@import "modules/infoviz";
+@import "modules/calendar";
+@import "modules/prescriptions";
+@import "modules/patientinfo"
+
+// Import State Styles
+// @import "states/validation"

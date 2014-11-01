@@ -1,0 +1,63 @@
+/* FONT PATH
+ * -------------------------- */
+ @font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=3.2.1');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../fonts/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* FONT AWESOME CORE
+ * -------------------------- */
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    *margin-right: .3em;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+    padding-left: 1px;
+}
+.icon-long-arrow-down:before {
+	color: #f78a8a;
+	font-weight: bolder;
+	content: "\f175";
+}
+.icon-exclamation:before {
+	color: white;
+	content: "\f12a";
+}
+.icon-exclamation-sign:before {
+	color: #ffebb7;
+	content: "\f06a";
+}
+.icon-ok:before {
+	color: #72ea62;
+	content: "\f00c";
+}
+.icon-ellipsis-horizontal:before {
+	color: $light-gray;
+	content: "\f141";
+}
+.icon-chevron-sign-left:before {
+	content: "\f137";
+}
+.icon-chevron-sign-right:before {
+	content: "\f138";
+}
+.icon-plus-sign:before {
+	content: "\f055";
+}
+.icon-jumbo {
+	font-size: 5.5em;
+	font-weight: bolder;
+	padding-right: 10px;
+}

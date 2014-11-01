@@ -1,0 +1,31 @@
+.pure-menu {
+	font-weight: lighter;	
+}
+.home-menu ul {
+	float:right;
+}
+.pure-menu li span.welcome {
+	color: $light-gray;
+	padding: 5px 20px;
+}
+.pure-menu.pure-menu-fixed {
+	position: fixed;
+}
+.pure-menu.pure-menu-blackbg {
+	background: $nav-background;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-heading:hover {
+	color: #efefef;
+}
+.pure-menu.pure-menu-blackbg a {
+	color: white;
+}
+.pure-menu.pure-menu-blackbg a:hover {
+	background: #666;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-selected a {
+	background: $purple; 
+}
+.pure-menu.pure-menu-blackbg .pure-menu-selected a:hover {
+	color: $light-gray;
+}

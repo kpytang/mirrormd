@@ -1,0 +1,39 @@
+.prescription {
+	margin-left: $margin-left;
+	overflow: hidden;
+	table {
+	  width: 85%;
+  	font-size: 0.7em;
+	}
+}
+.prescription-header {
+  &.current-prescription {
+    font-size: 150%;
+    background: orange;
+  }
+  line-height: 2em;
+  height: 50px;
+  width: 85%;
+  position: relative;
+  .past-prescription {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    span {
+      font-size: 0.85em;
+    }
+  }
+}
+.pure-table td {
+  padding: 0.5em;
+}
+.prescriptions {
+	margin-left: $margin-left;
+}
+.selected-prescription {
+	background: $darkyellow;
+}
+.selected-prescription i {
+	float: right;
+	padding-top: 10px;
+}
